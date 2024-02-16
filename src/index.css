@@ -1,0 +1,15 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
+.bg {
+  margin: 0;
+  padding: 0;
+  background: url('http://localhost:5173/bg-01.svg') no-repeat center center fixed;
+  background-size: cover; /* or 'contain' depending on your preference */
+}
